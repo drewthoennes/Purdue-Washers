@@ -4,6 +4,11 @@ A simple package to gather data on washers and dryers in Purdue's dorms
 ## About
 This package is built off of the [Purdue Wash Alert website](http://wpvitassuds01.itap.purdue.edu/washalertweb/washalertweb.aspx?location=000f2375-7317-4a89-b836-4140dcd49b7c). The website updates every few minutes and as a result, the data returned through this package will act similarly.
 
+## Installation
+```
+$ npm install purdue-washers
+```
+
 ## Usage
 The full documentation can be found [here](https://www.boredapi.com/documentation), but listed below are a few of the endpoints
 
