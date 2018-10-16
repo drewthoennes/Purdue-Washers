@@ -1,5 +1,5 @@
 # Purdue Washers
-A simple package to gather data on Purdue's dorm washers and dryers
+A simple package to gather data on washers and dryers in Purdue's dorms
 
 ## About
 This package is built off of the [Purdue Wash Alert website](http://wpvitassuds01.itap.purdue.edu/washalertweb/washalertweb.aspx?location=000f2375-7317-4a89-b836-4140dcd49b7c). The website updates every few minutes and as a result, the data returned through this package will act similarly.
@@ -115,4 +115,4 @@ Output
 ```
 
 ## Word of Warning
-This package relies entirely on the [Purdue Wash Alert website](http://wpvitassuds01.itap.purdue.edu/washalertweb/washalertweb.aspx?), so if it is ever deprecated, this package will no longer work.
+This package relies entirely on the [Purdue Wash Alert website](http://wpvitassuds01.itap.purdue.edu/washalertweb/washalertweb.aspx?), so if it is ever deprecated this package will no longer work.
