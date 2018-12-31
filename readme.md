@@ -10,7 +10,6 @@ $ npm install purdue-washers
 ```
 
 ## Usage
-The full documentation can be found [here](https://www.boredapi.com/documentation), but listed below are a few of the endpoints
 
 #### Get washers and dryers
 Gets a key-value array of all dorms and their respective washers and dryers
@@ -50,11 +49,11 @@ Output
 ```
 
 #### Get dorms
-Gets a list of all available dorms
+Gets a list of all dorms
 ```js
 const washers = require('purdue-washers');
 
-washers.getDorms().then((links) => {
+washers.getDorms().then(links => {
   console.log(links);
 });
 ```
@@ -80,11 +79,11 @@ Output
 ```
 
 #### Get washers and dryers by dorm
-Gets a list of washers and dryers given a dorm from the getDorms() function
+Gets a list of washers and dryers by dorm
 ```js
-const washers = require('../index.js');
+const washers = require('purdue-washers');
 
-washers.getMachines('Cary Quad West Laundry').then((machines) => {
+washers.getMachines('Cary Quad West Laundry').then(machines => {
   console.log(machines);
 });
 ```
